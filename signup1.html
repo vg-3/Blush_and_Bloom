@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cnd link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="signup1.css" />
+  </head>
+  <body>
+    <!-- header section starts-->
+    <header>
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      <a href="#" class="logo">flower<span>.</span></a>
+      <nav class="navbar">
+         <a href="index.html">home</a>
+        <a href="index.html">about</a>
+        <a href="index.html">products</a>
+        <a href="index.html">review</a>
+        <a href="index.html">contact</a>
+      </nav>
+      <div class="icons">
+        <a href="fav.html" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"><span>0</span></a>
+        <a href="signup.html" class="fas fa-user"></a>
+      </div>
+    </header>
+    <!-- header section ends -->
+    <!-- .
+.
+.
+.
+.
+.
+.
+.
+.
+ -->
+    <!-- sign up -->
+
+    <div class="container">
+      <div class="signupheading">
+        <h3>sign<span>U</span>p</h3>
+      </div>
+      <center>
+    <form id="form1" action="" method="">
+     <div class="table">
+      <table>
+        <!-- row 1 -->
+                <tr>
+                  <td>
+                    <label for="MobileNumber">MobileNumber*</label>
+                    </td>
+                    <td>
+                    <input type="text" name="MobileNumber" id="MobileNumber" class="box" pattern="[0-9]{10}" required/>
+                  </td>
+                </tr>
+               
+                <!-- row2 -->
+                <tr>
+                  <td>
+                    <label for="Name">Name*</label>
+                    </td>
+                    <td>
+                    <input type="text" name="Name" id="Name" class="box" required />
+                  </td>
+                </tr>
+                </tr>
+                <!-- row3 -->
+                <tr>
+                  <td>
+                    <label for="Email Id">Email Id*</label>
+                    </td>
+                    <td>
+                    <input type="Email Id" name="Email Id" id="Email Id" class="box" required/>
+                  </td>
+                </tr>
+                </tr>
+                <!-- row4 -->
+                <tr>
+                  <td>
+                    <label for="Pincode">Pincode*</label></td>
+                    <td>
+                    <input type="tel" name="Pincode" id="Pincode" class="box" pattern="[0-9]{6,10}" required/>
+                  </td>
+                </tr>
+                </tr>
+                <!-- row5 -->
+                <tr>
+                  <td>
+                    <label for="Password">Password*</label></td>
+                    <td>
+                    <input type="Password" name="Password" id="Password" class="box" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
+                  </td>
+                </tr>
+                <!-- row6 -->
+                <tr>
+                 <td>
+                  <div class="Checkbox">
+                  <input type="Checkbox" name="Checkbox" id="Checkbox" class="box" required>
+                  <label for="Checkbox">Accept</label>
+                  </div>
+                 </td>
+                 <td>
+                  <a href="files/BuyerRegistration_Terms_Conditions.pdf" target="popup" 
+                  onclick="window.open('Files/BuyerRegistration_Terms_Conditions.pdf','popup','width=600,height=600'); return false;"
+                  style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #556270; font-weight:700 ;"
+                  >Terms and Conditions</a>
+                 </td>
+                </tr>
+      </table>
+     </div>
+          <a href="#" class="btn"><label>SignUp</label></a>
+          <a href="#" class="btn"><label>Cancel</label></a>
+            
+             <div class="login">
+              <br>
+              <p>Already a Member?<a href="login.html">Login now</a></p>
+            </div>
+      
+    </div>
+   </center>
+    <!-- end of signup 
+    .
+   .
+  .
+ .-->
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">products</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#">my account</a>
+          <a href="#">my order</a>
+          <a href="#">my favorite</a>
+        </div>
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">india</a>
+          <a href="#">USA</a>
+          <a href="#">japan</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+123-456-7890</a>
+          <a href="#">example@gmail.com</a>
+          <a href="#">banglore, india -560060</a>
+          <img src="./images/payment.png" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">all rights reserved&copy;</div>
+    </section>
+    <!-- footer section ends -->
+  </body>
+</html>
